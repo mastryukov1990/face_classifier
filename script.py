@@ -12,10 +12,10 @@ transform_val = transforms.Compose([
          transforms.Normalize(mean = [0.5,0.5,0.5],std = [0.5,0.5,0.5])
 
 ])
-# DIR_NAME = str(sys.argv[1])
+DIR_NAME = str(sys.argv[1])
 import glob, os
 from PIL import Image
-os.chdir('photos/')
+os.chdir(DIR_NAME )
 roots = glob.glob('*.jpg')
 
 answer = {}
@@ -28,4 +28,5 @@ for name in roots:
 
 with open("process_results.json", "w") as fp:
     json.dump(answer,fp)
+    print('result was saved in {}process_results.json'.format(DIR_NAME))
 

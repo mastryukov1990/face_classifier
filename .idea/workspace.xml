@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ca6c08-7a4b-4529-9f4a-9318ca550e69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ntech.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/DUvTxbks_sQ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/IMG_20200918_201149.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/idealman04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/process_results.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resner10111" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/script.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,21 +92,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1600456244649">
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1600459347877">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600456244649" />
-    <state width="1345" height="192" key="GridCell.Tab.0.center" timestamp="1600456244649">
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600459347877" />
+    <state width="1345" height="192" key="GridCell.Tab.0.center" timestamp="1600459347877">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600456244649" />
-    <state width="1345" height="192" key="GridCell.Tab.0.left" timestamp="1600456244648">
+    <state width="1345" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600459347877" />
+    <state width="1345" height="192" key="GridCell.Tab.0.left" timestamp="1600459347877">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600456244648" />
-    <state width="1345" height="192" key="GridCell.Tab.0.right" timestamp="1600456244649">
+    <state width="1345" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600459347877" />
+    <state width="1345" height="192" key="GridCell.Tab.0.right" timestamp="1600459347877">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600456244649" />
+    <state width="1345" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600459347877" />
   </component>
 </project>
