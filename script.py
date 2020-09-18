@@ -4,6 +4,7 @@ import json
 from torchvision import transforms
 import glob, os
 from PIL import Image
+import re
 print('load model...')
 model = torch.load('resner10111', map_location=torch.device('cpu'))  # load model
 
@@ -19,12 +20,13 @@ transform_val = transforms.Compose([  # transform needed size
 DIR_NAME = str(sys.argv[1])  # get target file path
 
 
-os.chdir(DIR_NAME)
-roots = glob.glob('*.jpg')  # create massive with pathes
+roots = glob.glob(DIR_NAME+'*.jpg')  # create massive with pathes
 
 answer = {}
 for name in roots:
+
     tens = transform_val(Image.open(name)).reshape([1, 3, 150, 150])  # transform photo
+    name = name.split('\\')[-1]
     outputs = model(tens)  # model classifier
     _, label = torch.max(outputs.data, 1)  # get label
     answer[name] = 'male' if label.item() == 0 else 'female'  # 1 - female, 0- male
