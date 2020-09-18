@@ -6,7 +6,7 @@ import glob, os
 from PIL import Image
 import re
 print('load model...')
-model = torch.load('resner10111', map_location=torch.device('cpu'))  # load model
+model = torch.load('model', map_location=torch.device('cpu'))  # load model
 
 transform_val = transforms.Compose([  # transform needed size
     transforms.Resize([150, 150]),
