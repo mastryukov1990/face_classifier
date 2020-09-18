@@ -33,4 +33,4 @@ for name in roots:
 
 with open("process_results.json", "w") as fp:  # save json file
     json.dump(answer, fp)
-    print('result was saved in {}process_results.json'.format(DIR_NAME))
+    print('result was saved in process_results.json')
